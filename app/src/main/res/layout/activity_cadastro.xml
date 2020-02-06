@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CadastroActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Cadastrar Produtos"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_foto_produto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@android:drawable/ic_menu_camera"
+
+        />
+
+    <EditText
+        android:id="@+id/txt_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto" />
+
+    <EditText
+        android:id="@+id/txt_quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0.00 KZ"
+        android:inputType="numberDecimal"
+
+        />
+
+    <Button
+        android:id="@+id/btn_inserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserir" />
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+
+</LinearLayout>
